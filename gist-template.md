@@ -30,27 +30,38 @@ Throughout the tutorial, we'll explain each component of this regex pattern in d
 ## Regex Components
 
 ### Anchors
+Anchors (^, $, \b, and \B) are essential for specifying where in the text a match should occur.
 
 ### Quantifiers
+Quantifiers (*, +, ?, {}) allow us to specify how many times a character or a group of characters can appear in a match. 
 
 ### OR Operator
+In regular expressions, the '|' symbol is used to denote the "or" operator, allowing you to match either one pattern or another. It's often referred to as alternation.
 
 ### Character Classes
+Character classes provide a way to match any one of a set of characters. You can learn how to use [ ] to create character classes and negate them using ^.
 
 ### Flags
+In regular expressions, flags are modifiers that can be added to the end of a regex pattern to change how the pattern is interpreted or applied. They alter the behavior of the regex engine when matching text.
 
 ### Grouping and Capturing
+Grouping allows us to treat multiple characters as a single unit. You can learn how to explore the use of () for grouping and capturing substrings.
 
 ### Bracket Expressions
+In regular expressions, bracket expressions, also known as character classes, allow you to specify a set of characters that you want to match. They are enclosed within square brackets [ ].
 
 ### Greedy and Lazy Match
+In regular expressions, quantifiers such as *, +, and {} are greedy by default, meaning they match as much text as possible while still allowing the overall pattern to match. However, sometimes you may want to match as little text as possible. This is where lazy (or non-greedy) matching comes into play. Lazy quantifiers, denoted by appending a ? after the quantifier, match as little text as possible while still allowing the overall pattern to match.
 
 ### Boundaries
+In regular expressions, boundaries help define where a match should start or end within the text. They do not match any characters themselves but rather represent positions within the text.
 
 ### Back-references
+In regular expressions, back references allow you to match the same text that was previously matched by a capturing group. They enable you to refer back to portions of the input text that have already been matched. To create a back reference, you use a backslash \ followed by the index or name of the capturing group you want to reference. 
 
 ### Look-ahead and Look-behind
+In regular expressions, look-ahead and look-behind assertions are zero-width assertions, meaning they don't consume characters in the input string but only assert whether a match is possible at a specific position. A look-ahead assertion, denoted by (?= ...), asserts whether a particular pattern matches next in the input text without consuming any characters. It's used to check if a certain pattern is followed by another pattern.
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+This tutorial was writen by Vineysha. You can find more of my work at my GitHub [https://github.com/Vineysha]
