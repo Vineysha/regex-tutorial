@@ -6,7 +6,12 @@ In this tutorial, we'll explore the fundamentals of regular expressions, commonl
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+We'll focus on a specific regex pattern for matching email addresses. This pattern will cover the essential components of an email address and provide insights into building robust regex expressions.
+
+Regex Pattern:
+^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$
+
+Throughout the tutorial, we'll explain each component of this regex pattern in detail, covering its purpose and how it contributes to validating email addresses.
 
 ## Table of Contents
 
