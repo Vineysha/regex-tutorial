@@ -1,6 +1,8 @@
-# Title (replace with your title)
+# Regex Tutorial: A Hands-On Introduction to Regular Expressions
 
-Introductory paragraph (replace this with your text)
+## Introduction
+
+In this tutorial, we'll explore the fundamentals of regular expressions, commonly referred to as regex. Regular expressions are powerful tools for pattern matching and text manipulation. Whether you're a beginner or an experienced developer, understanding regex can greatly enhance your ability to work with textual data.
 
 ## Summary
 
