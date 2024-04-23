@@ -38,6 +38,12 @@ Quantifiers (*, +, ?, {}) allow us to specify how many times a character or a gr
 ### OR Operator
 In regular expressions, the '|' symbol is used to denote the "or" operator, allowing you to match either one pattern or another. It's often referred to as alternation.
 
+For example, suppose we want to match either "cat" or "dog" in a text. We can use the regex pattern cat|dog. Here's what each part of the pattern does:
+
+- cat: Matches the exact string "cat".
+- |: Acts as the "or" operator.
+- dog: Matches the exact string "dog".
+
 ### Character Classes
 Character classes provide a way to match any one of a set of characters. You can learn how to use [ ] to create character classes and negate them using ^.
 
@@ -48,7 +54,7 @@ In regular expressions, flags are modifiers that can be added to the end of a re
 Grouping allows us to treat multiple characters as a single unit. You can learn how to explore the use of () for grouping and capturing substrings.
 
 ### Bracket Expressions
-In regular expressions, bracket expressions, also known as character classes, allow you to specify a set of characters that you want to match. They are enclosed within square brackets [ ].
+In regular expressions, bracket expressions, also known as character classes, allow you to specify a set of characters that you want to match. They are enclosed within square brackets [ ]. For example, [aeiou] matches any single vowel character (a, e, i, o, or u). 
 
 ### Greedy and Lazy Match
 In regular expressions, quantifiers such as *, +, and {} are greedy by default, meaning they match as much text as possible while still allowing the overall pattern to match. However, sometimes you may want to match as little text as possible. This is where lazy (or non-greedy) matching comes into play. Lazy quantifiers, denoted by appending a ? after the quantifier, match as little text as possible while still allowing the overall pattern to match.
