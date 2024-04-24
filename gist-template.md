@@ -30,7 +30,7 @@ Throughout the tutorial, we'll explain each component of this regex pattern in d
 ## Regex Components
 
 ### Anchors
-Anchors (^, $, \b, and \B) are essential for specifying where in the text a match should occur.
+Anchors (^, $, \b, and \B) are essential for specifying where in the text a match should occur. They are special characters that represent positions in the input string. They don't match any characters themselves but rather denote specific locations within the text.
 
 ### Quantifiers
 Quantifiers (*, +, ?, {}) allow us to specify how many times a character or a group of characters can appear in a match. 
